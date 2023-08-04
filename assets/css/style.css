@@ -9225,3 +9225,17 @@ h3.cart-page-title {
   background-color: #333;
   color: #fff;
 }
+
+
+/* -------form------- */
+
+#form{
+  position: absolute;
+  color: white;
+  margin: 15px 0 0 -110px;
+  font-weight: bold;
+}
+#form option{
+ background-color: #0259cf;
+ font-weight: bold;
+}
