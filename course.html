@@ -27,8 +27,23 @@
     
     <!-- Modernizer JS -->
     <script src="assets/js/vendor/modernizr-3.11.7.min.js"></script>
-</head>
 
+
+
+    <style>
+        .king{
+            display: none;
+        }
+    </style>
+</head>
+<!-- --------------------------------------------------------------------------------------------
+school----318-736
+college----737--1155
+employment--1156--1576
+
+
+
+----------------------------------------------------------------------------------- -->
 <body>
 <header class="header-area">
     <div class="header-top bg-img" style="background-image:url();">
@@ -44,10 +59,10 @@
                 </div>
                 <div class="col-lg-6 col-md-5 col-12 col-sm-4">
                     <div class="login-register">
-                        <ul>
-                            <!-- <li><a href="login-register.html">Login</a></li> -->
-                            <li><a href="login-register.html">Enroll Now</a></li>
-                        </ul>
+                         <div id="form">                             
+                             <a href="form-shl.html">Enrollment</a>
+                        </div>  
+                   
                     </div>
                 </div>
             </div>
@@ -296,18 +311,35 @@
         </div>
     </div>
 </header>
+
+
+<!-- --------------------------------------------------------start--------------------------------------------- -->
+
+<div style="text-align: center;">
+    <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-primary" onClick="shl()">School</button>
+        <button type="button" class="btn btn-primary" onClick="clg()">College</button>
+        <button type="button" class="btn btn-primary" onClick="empy()">Employment</button>
+      </div>
+</div>
+<!-- -------------------------------------------------school---------------------------------------------------------- -->
+
+<div class="course">
+
+    <div id="school" >
+
 <div class="breadcrumb-area">
     <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/img/bg/breadcrumb-bg-2.jpg);">
         <div class="container">
-            <h2>Course Grid</h2>
+            <h2> School Course </h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
         </div>
     </div>
     <div class="breadcrumb-bottom">
         <div class="container">
-            <ul>
+            <!-- <ul>
                 <li><a href="#">Home</a> <span><i class="fa fa-angle-double-right"></i>Course Grid</span></li>
-            </ul>
+            </ul> -->
         </div>
     </div>
 </div>
@@ -707,6 +739,849 @@
         </div>
     </div>
 </div>
+
+</div>
+<!-- --------------------------------------------------------college----------------------------------------------------------- -->
+
+<div style="display: none;" id="college">
+
+
+<div class="breadcrumb-area">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/img/bg/breadcrumb-bg-2.jpg);">
+        <div class="container">
+            <h2> College Course </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
+        </div>
+    </div>
+    <div class="breadcrumb-bottom">
+        <div class="container">
+            <!-- <ul>
+                <li><a href="#">Home</a> <span><i class="fa fa-angle-double-right"></i>Course Grid</span></li>
+            </ul> -->
+        </div>
+    </div>
+</div>
+<div class="course-area bg-img pt-130">
+    <div class="container">
+        <div class="section-title mb-75 course-mrg-small">
+            <h2> <span>Beginner</span> Programme</h2>
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+        <div class="course-slider-active-3">
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
+                    <span>Addmission Going On</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Grphic Design & Multimedia</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Computer  Engineering</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
+                    <span>Post Graduation Course</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Fashion & Technology</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="course-area bg-img">
+    <div class="container">
+        <div class="section-title mb-75 course-mrg-small">
+            <h2> Intermediate<span>Programme</span></h2>
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+        <div class="course-slider-active-4">
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
+                    <span>Addmission Going On</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Grphic Design & Multimedia</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Computer  Engineering</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
+                    <span>Post Graduation Course</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Fashion & Technology</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="course-area bg-img">
+    <div class="container">
+        <div class="section-title mb-75 course-mrg-small">
+            <h2> <span>Advanced</span> Programme</h2>
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+        <div class="course-slider-active-5">
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
+                    <span>Addmission Going On</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Grphic Design & Multimedia</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Computer  Engineering</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
+                    <span>Post Graduation Course</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Fashion & Technology</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!-- --------------------------------------------------Empolyment-------------------------------------------------- -->
+
+<div style="display: none;" id="employment">
+
+
+<div class="breadcrumb-area">
+    <div class="breadcrumb-top default-overlay bg-img breadcrumb-overly-2 pt-100 pb-95" style="background-image:url(assets/img/bg/breadcrumb-bg-2.jpg);">
+        <div class="container">
+            <h2> Empolyment Course </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore .</p>
+        </div>
+    </div>
+    <div class="breadcrumb-bottom">
+        <div class="container">
+            <!-- <ul>
+                <li><a href="#">Home</a> <span><i class="fa fa-angle-double-right"></i>Course Grid</span></li>
+            </ul> -->
+        </div>
+    </div>
+</div>
+<div class="course-area bg-img pt-130">
+    <div class="container">
+        <div class="section-title mb-75 course-mrg-small">
+            <h2> <span>Beginner</span> Programme</h2>
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+        <div class="course-slider-active-3">
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
+                    <span>Addmission Going On</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Grphic Design & Multimedia</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Computer  Engineering</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
+                    <span>Post Graduation Course</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Fashion & Technology</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="course-area bg-img">
+    <div class="container">
+        <div class="section-title mb-75 course-mrg-small">
+            <h2> Intermediate<span>Programme</span></h2>
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+        <div class="course-slider-active-4">
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
+                    <span>Addmission Going On</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Grphic Design & Multimedia</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Computer  Engineering</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
+                    <span>Post Graduation Course</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Fashion & Technology</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="course-area bg-img">
+    <div class="container">
+        <div class="section-title mb-75 course-mrg-small">
+            <h2> <span>Advanced</span> Programme</h2>
+            <p>tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim <br>veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip </p>
+        </div>
+        <div class="course-slider-active-5">
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-1.jpg" alt=""></a>
+                    <span>Addmission Going On</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Grphic Design & Multimedia</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-3.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Computer  Engineering</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-4.jpg" alt=""></a>
+                    <span>Post Graduation Course</span>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Fashion & Technology</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="single-course">
+                <div class="course-img">
+                    <a href="course-details.html"><img class="animated" src="assets/img/course/course-2.jpg" alt=""></a>
+                </div>
+                <div class="course-content">
+                    <h4><a href="course-details.html">Apparel Manufacturing</a></h4>
+                    <p>magna aliqua. Ut enim ad minim veniam, nisi ut aliquiptempor incid.</p>
+                </div>
+                <div class="course-position-content">
+                    <div class="credit-duration-wrap">
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-diamond"></i>
+                            <span>Credits : 125</span>
+                        </div>
+                        <div class="sin-credit-duration">
+                            <i class="fa fa-clock-o"></i>
+                            <span>Duration : 4yrs</span>
+                        </div>
+                    </div>
+                    <div class="course-btn">
+                        <a class="default-btn" href="#">APPLY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+</div>
+<!-- --------------------------------------------------end------------------------------------------------------------- -->
 <div class="brand-logo-area pb-130">
     <div class="container">
         <div class="brand-logo-active owl-carousel">
@@ -899,5 +1774,29 @@
 <script src="assets/js/main.js"></script>
 
 </body>
+<script>
+    var course1 =document.getElementById('school');
+    var course2 =document.getElementById('college');  
+    var course3 =document.getElementById('employment');
 
+
+    function shl(){     
+        course1.removeAttribute('style');
+        course2.setAttribute('style','display: none;')
+        course3.setAttribute('style','display: none;')
+    }
+
+    function clg(){     
+        course2.removeAttribute('style');
+        course1.setAttribute('style','display: none;')
+        course3.setAttribute('style','display: none;')
+    }
+
+    function empy(){ 
+        course3.removeAttribute('style');
+        course2.setAttribute('style','display: none;')
+        course1.setAttribute('style','display: none;')
+    }
+
+  </script>
 </html>
