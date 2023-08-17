@@ -1,4 +1,5 @@
-@charset "UTF-8";
+ 
+ @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
     Template Name: Glaxdu – Education Bootstrap 5 Template
@@ -184,7 +185,7 @@ input[type=submit] {
 
 ul {
   list-style: outside none none;
-  margin: 0;
+  margin: 20px 0 0 0;
   padding: 0;
 }
 
@@ -239,7 +240,7 @@ a:hover {
   margin-left: 0;
 }
 
-.p-0 {
+.p-0 {  
   padding-top: 0;
   padding-right: 0;
   padding-bottom: 0;
@@ -1645,7 +1646,7 @@ textarea:focus {
 
 /*--------- 2. Header style ---------*/
 .header-top {
-  padding: 15px 0 22px;
+  padding: -5px 0 22px;
   position: relative;
 }
 .header-top:before {
@@ -1734,8 +1735,37 @@ textarea:focus {
   float: right;
 }
 @media only screen and (max-width: 767px) {
-  .login-register {
+  /* .login-register {
     float: inherit;
+  } */
+  #form a{
+    font-size: 8.5px;
+    font-weight: bold;
+  }
+  #form {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    right: 10px;
+  }
+  .login-register {
+      float: right;
+  }
+  .enroll {
+      /* margin: 0;
+      padding: 0; */
+      position: absolute;
+      /* right: 0; */
+      top: 1.5px;
+  }
+  .row ul li i {
+      font-size: 10px;
+  }
+  .row ul li .header_li {
+      font-size: 9px;
+  }
+  .ph_mail {
+    width: auto;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -1767,6 +1797,7 @@ textarea:focus {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
+  margin: -17px 0 0 0;
 }
 .login-register ul li a:hover {
   color: #ddd;
@@ -9233,14 +9264,45 @@ h3.cart-page-title {
 #form{
   position: absolute;
   color: white;
-  margin: -5px 0 0 -110px;
+  margin: 10px 0 0 -110px;
   font-weight: bold;
 }
 #form option{
  background-color: #0259cf;
  font-weight: bold;
 }
-
 #logo{
-margin: -35px 0 0 0 ;
+  margin: -15px 0 0 0 ;
+}
+.nav-head {
+  margin-top: 30px;
+}
+@media only screen and (min-width: 988px) {
+  .nav-head {
+    height: 8em;
+    margin-top: 8px;
+  }
+  .nav-logo {
+    position: absolute;
+  }
+  .nav-opt ul {
+    margin: 0 auto;
+  }
+  .nav-opt ul li {
+    padding: 0 20px;
+    z-index: 10;
+  }
+}
+@media only screen and (max-width: 987px) {
+  .nav-opt ul {
+    float: left;
+    margin: 2em 15px;
+  }
+  .nav-logo {
+    margin-left: -4em;
+  }
+}
+.global_active {
+  background-color: #00a651; 
+  color: white;
 }
